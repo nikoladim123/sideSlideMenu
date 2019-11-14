@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+}
+
+section{
+  height: 100vh;
+}
+
+/* sideMenu start*/
+.sideMenuContainer{
+  position: fixed;
+  left: 0;
+  top: 30%;
+}
+
+.sideMenuOpenBUtton{
+  cursor: pointer;
+  position: absolute;
+  background: green;
+  width: 5vw;
+  height: 5vw;
+  top: 1vw;
+  left: 3vw;
+  border-radius: 50%;
+}
+
+.sideMenuBox{
+  transition: 1s ease;
+  left: -20vw;
+  position: absolute;
+  background: black;
+  padding: 3vw;
+}
+
+.sideMenuBox p{
+  user-select: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.3vw;
+}
+/* sideMenuEnd */
